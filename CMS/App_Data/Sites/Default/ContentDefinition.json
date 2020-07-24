@@ -1,0 +1,401 @@
+{
+  "ContentTypeDefinitionRecords": [
+    {
+      "Name": "Apppagina",
+      "DisplayName": "App pagina",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true,
+          "Draftable": true,
+          "Versionable": true,
+          "Securable": true
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "Apppagina",
+          "Name": "Apppagina",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "Header",
+          "Name": "Header",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        },
+        {
+          "PartName": "FlowPart",
+          "Name": "FlowPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "2"
+            }
+          }
+        },
+        {
+          "PartName": "LMSModuleSelector",
+          "Name": "LMSModuleSelector",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Tekstveld",
+      "DisplayName": "Tekstveld",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Versionable": true,
+          "Stereotype": "Widget",
+          "Securable": true
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "Tekstveld",
+          "Name": "Tekstveld",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Headerveld",
+      "DisplayName": "Headerveld",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Versionable": true,
+          "Stereotype": "Widget",
+          "Securable": true
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "Headerveld",
+          "Name": "Headerveld",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "FavoritesBar",
+      "DisplayName": "FavoritesBar",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Versionable": true,
+          "Stereotype": "Widget",
+          "Securable": true
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "FavoritesBar",
+          "Name": "FavoritesBar",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "ContentPartDefinitionRecords": [
+    {
+      "Name": "LiquidPart",
+      "Settings": {
+        "ContentPartSettings": {}
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "CommonPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides an editor for the common properties of a content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "AliasPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a way to define custom aliases for content items."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "WidgetsListPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a way to add widgets per content items."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "FlowPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a customizable body for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "BagPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Reusable": true,
+          "Description": "Provides a collection behavior for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "HtmlBodyPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides an HTML Body for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "ListPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Add a list behavior."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "MarkdownBodyPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a Markdown formatted body for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "TitlePart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a Title for your content item.",
+          "DefaultPosition": "0"
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "MenuPart",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "MenuItemPart",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "LinkMenuItemPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a menu link behavior for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "ContentMenuItemPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "DisplayName": "Content Menu Item",
+          "Description": "Provides a menu link behavior with the Content Picker for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "ContentPickerField",
+          "Name": "SelectedContentItem",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Selected Content Item",
+              "Position": "0"
+            },
+            "ContentPickerFieldSettings": {
+              "Required": true,
+              "DisplayAllContentTypes": true,
+              "DisplayedContentTypes": []
+            },
+            "ContentIndexSettings": {}
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Header",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true
+        }
+      },
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "Headertitel",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Header titel",
+              "Position": "1"
+            }
+          }
+        },
+        {
+          "FieldName": "NumericField",
+          "Name": "Headerduur",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Header duur",
+              "Position": "2"
+            }
+          }
+        },
+        {
+          "FieldName": "MediaField",
+          "Name": "Headerimage",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Header image",
+              "Position": "0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Tekstveld",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "Tekstveld",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Tekstveld",
+              "Editor": "TextArea",
+              "Position": "0"
+            },
+            "TextFieldSettings": {},
+            "ContentIndexSettings": {}
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Headerveld",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "Titelveld",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Titel veld",
+              "Position": "0"
+            },
+            "TextFieldSettings": {},
+            "ContentIndexSettings": {}
+          }
+        }
+      ]
+    },
+    {
+      "Name": "FavoritesBar",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "BooleanField",
+          "Name": "Favorite",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Favorite",
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "FieldName": "BooleanField",
+          "Name": "Download",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Download",
+              "Position": "1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "LMSModuleSelector",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true
+        }
+      },
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "LinkField",
+          "Name": "SelectLMSUrl",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "SelectLMSUrl"
+            },
+            "LinkFieldSettings": {
+              "Hint": "https://blob.rodekruis.com/module-name/index-app.html"
+            },
+            "ContentIndexSettings": {}
+          }
+        }
+      ]
+    }
+  ],
+  "Serial": 178
+}
